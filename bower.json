@@ -1,0 +1,16 @@
+{
+  "name": "adapt-clickplay",
+  "repository": "git://github.com/daya-cd/adapt-clickplay.git",
+  "homepage": "https://github.com/daya-cd/adapt-clickplay",
+  "authors": [
+    "daya-cd <h.dayanithi@gmail.com>"
+  ],
+  "description": "Click and play animations",
+  "main": "/js/adapt-clickplay.js",
+  "keywords": [
+    "click",
+    "play"
+  ],
+  "license": "GPLv3"
+  
+}
