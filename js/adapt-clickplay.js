@@ -29,8 +29,7 @@ define(["coreViews/componentView", "coreJS/adapt"], function(ComponentView, Adap
         },
 
         inview: function(event, visible, visiblePartX, visiblePartY) {
-            // console.log(event);
-            // $('#footer').append("<div id='reading-background'><img src='assets/progress.png'></div>");
+            
      }
 
 
