@@ -33,7 +33,14 @@ define(["coreViews/componentView", "coreJS/adapt"], function(ComponentView, Adap
                 myvideo.pause();
                 myvideo.currentTime = 1;
                 myvideo.play();
+                // myvideo.addEventListener("timeupdate", function(){                    
+                //     if(this.currentTime >= 4) {
+                //         this.pause();
+                //     }
+                // });
+
             }, false);
+
 
             jumplink2.addEventListener("click", function (event) {
                 event.preventDefault();
@@ -85,15 +92,7 @@ define(["coreViews/componentView", "coreJS/adapt"], function(ComponentView, Adap
                 myvideo.play();
             }, false);
 
-           // only in to demonstrate video
-           
-            playbutton.addEventListener("click", function () {
-            if (myvideo.paused) {
-                myvideo.play();
-            } else {
-                myvideo.pause();
-            }
-            }, false);
+
         },
 
         // Used to check if the blank should reset on revisit
